@@ -1,7 +1,7 @@
-{
-  "language": "node_js",
-  "os": [
-    "linux"
-  ],
-  "dist": "xenial"
-}
+language: nodejs
+
+before_script:
+  - npm install
+
+script:
+  - npm test
